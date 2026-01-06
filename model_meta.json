@@ -1,0 +1,46 @@
+{
+  "mode": "full",
+  "best_model": "rf",
+  "metrics": {
+    "ridge": {
+      "mae": 3.358136317128499,
+      "r2": 0.9529782128287
+    },
+    "rf": {
+      "mae": 2.195754899999998,
+      "r2": 0.9721733619259105
+    }
+  },
+  "feature_cols": [
+    "age",
+    "gender",
+    "school_type",
+    "parent_education",
+    "study_hours",
+    "attendance_percentage",
+    "internet_access",
+    "travel_time",
+    "extra_activities",
+    "study_method",
+    "math_score",
+    "science_score",
+    "english_score"
+  ],
+  "num_cols": [
+    "age",
+    "study_hours",
+    "attendance_percentage",
+    "math_score",
+    "science_score",
+    "english_score"
+  ],
+  "cat_cols": [
+    "gender",
+    "school_type",
+    "parent_education",
+    "internet_access",
+    "travel_time",
+    "extra_activities",
+    "study_method"
+  ]
+}
